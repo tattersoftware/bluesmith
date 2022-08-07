@@ -5,6 +5,8 @@ use App\Models\MethodModel;
 use CodeIgniter\Exceptions\PageNotFoundException;
 use CodeIgniter\Test\DatabaseTestTrait;
 use CodeIgniter\Test\FeatureTestTrait;
+use org\bovigo\vfs\vfsStream;
+use Tatter\Assets\Test\AssetsTestTrait;
 use Tests\Support\ProjectTestCase;
 
 /**
@@ -12,11 +14,23 @@ use Tests\Support\ProjectTestCase;
  */
 final class PagesTest extends ProjectTestCase
 {
+    use AssetsTestTrait;
     use DatabaseTestTrait;
     use FeatureTestTrait;
 
     protected $migrateOnce = true;
     protected $seedOnce    = true;
+
+    /**
+     * Publish view assets.
+     */
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $this->publishAll();
+        vfsStream::copyFromFileSystem(FCPATH . 'assets', self::$root);
+    }
 
     public function testRootShowsHomePage()
     {
