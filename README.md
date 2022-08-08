@@ -1,9 +1,9 @@
 # Bluesmith
 
 [![GitLab status](https://gitlab.oit.duke.edu/academic-technology/bluesmith/badges/develop/pipeline.svg)](https://gitlab.oit.duke.edu/academic-technology/bluesmith/commits/develop)
-[![](https://github.com/duke-bluesmith/bluesmith/workflows/PHPUnit/badge.svg)](https://github.com/organization/project/actions/workflows/phpunit.yml)
-[![](https://github.com/duke-bluesmith/bluesmith/workflows/PHPStan/badge.svg)](https://github.com/organization/project/actions/workflows/phpstan.yml)
-[![Coverage Status](https://coveralls.io/repos/github/duke-bluesmith/bluesmith/badge.svg?branch=develop)](https://coveralls.io/github/duke-bluesmith/bluesmith?branch=develop)
+[![](https://github.com/tattersoftware/bluesmith/workflows/PHPUnit/badge.svg)](https://github.com/tattersoftware/bluesmith/actions/workflows/phpunit.yml)
+[![](https://github.com/tattersoftware/bluesmith/workflows/PHPStan/badge.svg)](https://github.com/tattersoftware/bluesmith/actions/workflows/phpstan.yml)
+[![Coverage Status](https://coveralls.io/repos/github/tattersoftware/bluesmith/badge.svg?branch=develop)](https://coveralls.io/github/tattersoftware/bluesmith?branch=develop)
 
 3D Print manager, Bluesmith (https://bluesmith.oit.duke.edu)
 
