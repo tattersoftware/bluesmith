@@ -9,7 +9,7 @@
 
 	<meta name="description" content="Admin Dashboard" />
 	<meta name="keywords" content="admin,dashboard,management" />
-	<meta name="author" content="AdminLTE" />
+	<meta name="author" content="Bluesmith Development" />
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 	<title><?= preference('brandName') ?> | <?= $header ?? 'Admin' ?></title>

@@ -15,12 +15,18 @@
     "authors": [
         {
             "name": "Matthew Gatner",
+            "email": "mgatner@tattersoftware.com",
+            "homepage": "https://tattersoftware.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Matthew Gatner",
             "email": "msg8@duke.edu",
             "homepage": "https://duke.edu",
             "role": "Developer"
         }
     ],
-    "homepage": "https://bluesmith.oit.duke.edu",
+    "homepage": "https://github.com/tattersoftware/bluesmith",
     "require": {
         "php": "^7.4 || ^8.0",
         "chubv/php-stl": "^2.1",

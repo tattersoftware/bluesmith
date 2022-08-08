@@ -98,3 +98,15 @@ installation above) and a code coverage
 4. Run the tests with the following command in the application root: `composer test`
 
 5. Results are output to the CLI and in the **build/** directory
+
+## License & Copyright
+
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0, and is
+"Incompatible With Secondary Licenses". Complete license information is available in [LICENSE](LICENSE).
+
+The original source code and license are hosted by [Duke University](https://duke.edu) on a
+private GitLab instance [here](https://gitlab.oit.duke.edu/academic-technology/bluesmith),
+and mirrored to GitHub [here](https://github.com/duke-bluesmith/bluesmith).
+
+This file is part of a subsequent fork on GitHub hosted [here](https://github.com/tattersoftware/bluesmith)
+and maintained by the original author under different copyright status since August 2, 2022.

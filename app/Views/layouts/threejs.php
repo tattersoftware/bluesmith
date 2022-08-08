@@ -9,7 +9,7 @@
 
 	<meta name="description" content="Bluesmith 3D Print Job Management" />
 	<meta name="keywords" content="Bluesmith,3D print,job,manage" />
-	<meta name="author" content="Duke University OIT" />
+	<meta name="author" content="Bluesmith Development" />
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 	<title>Bluesmith<?= empty($title) ? '' : " | {$title}" ?></title>
