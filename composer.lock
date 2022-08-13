@@ -104,16 +104,16 @@
         },
         {
             "name": "codeigniter4/framework",
-            "version": "v4.2.1",
+            "version": "v4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "f65a2cff3a572c58c8ab9c8f61bdba904362b549"
+                "reference": "f91bc95493dcbdc398372e1366f09827656f2982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/f65a2cff3a572c58c8ab9c8f61bdba904362b549",
-                "reference": "f65a2cff3a572c58c8ab9c8f61bdba904362b549",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/f91bc95493dcbdc398372e1366f09827656f2982",
+                "reference": "f91bc95493dcbdc398372e1366f09827656f2982",
                 "shasum": ""
             },
             "require": {
@@ -158,7 +158,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "source": "https://github.com/codeigniter4/CodeIgniter4"
             },
-            "time": "2022-06-16T13:53:25+00:00"
+            "time": "2022-08-13T13:46:07+00:00"
         },
         {
             "name": "codeigniter4/settings",
@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/tasks.git",
-                "reference": "1e121d37018635e084c7bc7ee12ffad0becfe193"
+                "reference": "1dd674d0995c5d051abcc8026511604fd0b427b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/tasks/zipball/1e121d37018635e084c7bc7ee12ffad0becfe193",
-                "reference": "1e121d37018635e084c7bc7ee12ffad0becfe193",
+                "url": "https://api.github.com/repos/codeigniter4/tasks/zipball/1dd674d0995c5d051abcc8026511604fd0b427b3",
+                "reference": "1dd674d0995c5d051abcc8026511604fd0b427b3",
                 "shasum": ""
             },
             "require": {
@@ -244,7 +244,7 @@
             "require-dev": {
                 "codeigniter4/devkit": "^1.0",
                 "codeigniter4/framework": "^4.1",
-                "rector/rector": "0.13.9"
+                "rector/rector": "0.13.10"
             },
             "default-branch": true,
             "type": "library",
@@ -322,7 +322,7 @@
                 "source": "https://github.com/codeigniter4/tasks/tree/develop",
                 "issues": "https://github.com/codeigniter4/tasks/issues"
             },
-            "time": "2022-07-25T12:33:10+00:00"
+            "time": "2022-08-05T10:23:26+00:00"
         },
         {
             "name": "components/jquery",
@@ -3109,16 +3109,16 @@
         },
         {
             "name": "tatter/visits",
-            "version": "v2.0.0-beta.2",
+            "version": "v2.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tattersoftware/codeigniter4-visits.git",
-                "reference": "178860174f7dc3d422db84251da3e33ff5890663"
+                "reference": "78b63cbede1258bda1aaa97b28b04601bd4a491e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tattersoftware/codeigniter4-visits/zipball/178860174f7dc3d422db84251da3e33ff5890663",
-                "reference": "178860174f7dc3d422db84251da3e33ff5890663",
+                "url": "https://api.github.com/repos/tattersoftware/codeigniter4-visits/zipball/78b63cbede1258bda1aaa97b28b04601bd4a491e",
+                "reference": "78b63cbede1258bda1aaa97b28b04601bd4a491e",
                 "shasum": ""
             },
             "require": {
@@ -3164,7 +3164,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tattersoftware/codeigniter4-visits/issues",
-                "source": "https://github.com/tattersoftware/codeigniter4-visits/tree/v2.0.0-beta.2"
+                "source": "https://github.com/tattersoftware/codeigniter4-visits/tree/v2.0.0-rc.1"
             },
             "funding": [
                 {
@@ -3176,20 +3176,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-12T20:27:41+00:00"
+            "time": "2022-08-05T14:05:39+00:00"
         },
         {
             "name": "tatter/workflows",
-            "version": "v5.0.0-beta.2",
+            "version": "v5.0.0-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tattersoftware/codeigniter4-workflows.git",
-                "reference": "2671a040a629afd3dca566664f7a6d428dc3bc66"
+                "reference": "07f5dbcdcfb566bf4242b1a82328b7dfb98fd5de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tattersoftware/codeigniter4-workflows/zipball/2671a040a629afd3dca566664f7a6d428dc3bc66",
-                "reference": "2671a040a629afd3dca566664f7a6d428dc3bc66",
+                "url": "https://api.github.com/repos/tattersoftware/codeigniter4-workflows/zipball/07f5dbcdcfb566bf4242b1a82328b7dfb98fd5de",
+                "reference": "07f5dbcdcfb566bf4242b1a82328b7dfb98fd5de",
                 "shasum": ""
             },
             "require": {
@@ -3238,7 +3238,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tattersoftware/codeigniter4-workflows/issues",
-                "source": "https://github.com/tattersoftware/codeigniter4-workflows/tree/v5.0.0-beta.2"
+                "source": "https://github.com/tattersoftware/codeigniter4-workflows/tree/v5.0.0-rc.1"
             },
             "funding": [
                 {
@@ -3250,7 +3250,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-01T16:28:24+00:00"
+            "time": "2022-08-05T14:44:41+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -6012,12 +6012,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "83594c26a26f66af6e5322b9011b2e243a5509e8"
+                "reference": "773292d413a97c357a0b49635afd5fdb1d4f314a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/83594c26a26f66af6e5322b9011b2e243a5509e8",
-                "reference": "83594c26a26f66af6e5322b9011b2e243a5509e8",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/773292d413a97c357a0b49635afd5fdb1d4f314a",
+                "reference": "773292d413a97c357a0b49635afd5fdb1d4f314a",
                 "shasum": ""
             },
             "conflict": {
@@ -6135,6 +6135,7 @@
                 "flarum/sticky": ">=0.1-beta.14,<=0.1-beta.15",
                 "flarum/tags": "<=0.1-beta.13",
                 "fluidtypo3/vhs": "<5.1.1",
+                "fof/byobu": ">=0.3-beta.2,<1.1.7",
                 "fof/upload": "<1.2.3",
                 "fooman/tcpdf": "<6.2.22",
                 "forkcms/forkcms": "<5.11.1",
@@ -6226,7 +6227,7 @@
                 "mautic/core": "<4.3|= 2.13.1",
                 "mediawiki/core": ">=1.27,<1.27.6|>=1.29,<1.29.3|>=1.30,<1.30.2|>=1.31,<1.31.9|>=1.32,<1.32.6|>=1.32.99,<1.33.3|>=1.33.99,<1.34.3|>=1.34.99,<1.35",
                 "mezzio/mezzio-swoole": "<3.7|>=4,<4.3",
-                "microweber/microweber": "<1.3",
+                "microweber/microweber": "<1.3.1",
                 "miniorange/miniorange-saml": "<1.4.3",
                 "mittwald/typo3_forum": "<1.2.1",
                 "modx/revolution": "<= 2.8.3-pl|<2.8",
@@ -6519,7 +6520,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-29T23:04:14+00:00"
+            "time": "2022-08-12T16:04:45+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -8906,16 +8907,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "v4.25.0",
+            "version": "4.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "d7cd84c4ebca74ba3419b9601f81d177bcbe2aac"
+                "reference": "6998fabb2bf528b65777bf9941920888d23c03ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/d7cd84c4ebca74ba3419b9601f81d177bcbe2aac",
-                "reference": "d7cd84c4ebca74ba3419b9601f81d177bcbe2aac",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/6998fabb2bf528b65777bf9941920888d23c03ac",
+                "reference": "6998fabb2bf528b65777bf9941920888d23c03ac",
                 "shasum": ""
             },
             "require": {
@@ -9007,9 +9008,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vimeo/psalm/issues",
-                "source": "https://github.com/vimeo/psalm/tree/v4.25.0"
+                "source": "https://github.com/vimeo/psalm/tree/4.26.0"
             },
-            "time": "2022-07-25T17:04:37+00:00"
+            "time": "2022-07-31T13:10:26+00:00"
         },
         {
             "name": "webmozart/assert",
