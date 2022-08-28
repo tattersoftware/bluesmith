@@ -73,7 +73,6 @@ final class Notices implements Countable, IteratorAggregate
             ->join('stages', 'jobs.stage_id = stages.id', 'inner')
             ->where('jobs.deleted_at', null)
             ->get()->getResultArray() as $row) {
-
             // Filter by staff Actions
             $action = ActionFactory::find($row['action_id'])::getAttributes();
             if ($action['role'] === 'manageJobs') {
