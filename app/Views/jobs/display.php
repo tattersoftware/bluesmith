@@ -8,7 +8,7 @@
 	<?php endif; ?>
 <?php endif; ?>
 
-	<h4><?= $job->name ?></h4>
+	<h4><?= esc($job->name) ?></h4>
 	<h5 class="mb-3">Job #<?= $job->id ?>, <?= $job->owner->name ?></h5>
 
 	<div class="row">
@@ -61,7 +61,7 @@
 
 				<div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
 
-					<p><?= $job->summary ?></p>
+					<p><?= esc($job->summary) ?></p>
 
 					<table class="table">
 						<tbody>

@@ -13,7 +13,7 @@
 
 			<h3>Additional Notes</h3>
 			<blockquote>
-			<?= nl2br($job->estimate->description ?: '<em>Nothing noted.</em>') ?>
+			<?= nl2br(esc($job->estimate->description) ?: '<em>Nothing noted.</em>') ?>
 			</blockquote>
 
 			<?= form_open() ?>
