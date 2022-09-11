@@ -1,7 +1,7 @@
 <?= $this->extend(config('Layouts')->default) ?>
 <?= $this->section('main') ?>
 
-	<h3 class="mb-3"><?= $job->name ?></h3>
+	<h3 class="mb-3"><?= esc($job->name) ?></h3>
 	<dl class="row">
 		<dt class="col-3 col-lg-3">Total Amount</dt>
 		<dd class="col-3 col-lg-9"><?= $invoice->getTotal(true) ?></dd>

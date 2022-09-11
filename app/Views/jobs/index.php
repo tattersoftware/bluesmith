@@ -42,7 +42,7 @@
 
 					<tr>
 						<td><?= $row['id'] ?></td>
-						<td><?= anchor('manage/jobs/show/' . $row['id'], $row['name']) ?></td>
+						<td><?= anchor('manage/jobs/show/' . $row['id'], esc($row['name'])) ?></td>
 						<td><?= isset($row['user_id']) ? $row['firstname'] . ' ' . $row['lastname'] : '' ?></td>
 						<td><?= $row['method'] ?></td>
 						<td data-order="<?= $row['stage_id'] ?? 99 ?>"><?= $row['action'] ?? '<em>Complete</em>' ?></td>

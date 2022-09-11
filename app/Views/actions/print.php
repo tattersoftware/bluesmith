@@ -29,7 +29,7 @@
 			</table>
 
 			<h5>Job Summary</h5>
-			<p><?= $job->summary ?></p>
+			<p><?= esc($job->summary) ?></p>
 		</div>
 
 		<div class="col-sm-6">
