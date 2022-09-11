@@ -11,6 +11,7 @@ parameters:
 		- app/Config/Routes.php
 		- app/Views/*
 	ignoreErrors:
+		- '#Call to an undefined method CodeIgniter\\HTTP\\RequestInterface::(getGet|getHeaderLine|getPost|getUri|hasHeader|isAJAX)\(\)#'
 		- '#Cannot access property \$[A-Za-z_].+ on array\|object#'
 	universalObjectCratesClasses:
 		- CodeIgniter\Entity

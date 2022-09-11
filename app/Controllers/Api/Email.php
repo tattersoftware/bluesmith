@@ -57,7 +57,7 @@ class Email extends Controller
 
             return redirect()->to(base_url())->with('error', lang('Invite.invalid'));
         }
-        if ($invite->expired_at->isBefore(Time::now())) {
+        if ($invite->isExpired()) {
             return redirect()->to(base_url())->with('error', lang('Invite.expired'));
         }
 
