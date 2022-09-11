@@ -28,7 +28,7 @@
     ],
     "homepage": "https://github.com/tattersoftware/bluesmith",
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "chubv/php-stl": "^2.1",
         "codeigniter4/framework": "^4.1",
         "codeigniter4/tasks": "dev-develop",
