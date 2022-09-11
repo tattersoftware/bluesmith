@@ -19,7 +19,7 @@ sure your environment meets all of the framework's
 [system requirements](https://codeigniter4.github.io/userguide/intro/requirements.html).
 Framework requirements may change but here is a good start:
 
-* PHP 7.4 or newer
+* PHP 8.0 or newer
 * PHP extensions (`php -m`): intl, json, mbstring, mysqlnd, xml, curl
 * A database with one of the framework's supported drivers
 

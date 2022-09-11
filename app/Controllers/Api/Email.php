@@ -7,7 +7,6 @@ use App\Entities\Job;
 use App\Models\InviteModel;
 use App\Models\JobModel;
 use CodeIgniter\Controller;
-use CodeIgniter\I18n\Time;
 use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 
 class Email extends Controller
@@ -57,7 +56,7 @@ class Email extends Controller
 
             return redirect()->to(base_url())->with('error', lang('Invite.invalid'));
         }
-        if ($invite->expired_at->isBefore(Time::now())) {
+        if ($invite->isExpired()) {
             return redirect()->to(base_url())->with('error', lang('Invite.expired'));
         }
 

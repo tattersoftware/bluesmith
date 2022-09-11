@@ -6,6 +6,7 @@ use App\Models\JobModel;
 use App\Models\UserModel;
 use CodeIgniter\Entity\Entity;
 use InvalidArgumentException;
+use UnexpectedValueException;
 
 /**
  * Notices Class
@@ -87,6 +88,10 @@ class Notice extends Entity
      */
     public function getSort()
     {
-        return $this->created_at->getTimestamp();
+        if ($this->created_at === null) {
+            throw new UnexpectedValueException('Cannot sort transient entities.');
+        }
+
+        return $this->created_at->getTimestamp(); // @phpstan-ignore-line
     }
 }

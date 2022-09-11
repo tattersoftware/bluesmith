@@ -58,7 +58,7 @@ class Users extends BaseController
     {
         return view('users/index', [
             'title' => 'Staff',
-            'rows'  => $this->model->getCompiledRows(static fn ($row)  => is_numeric($row['group_id']), 'group'),
+            'rows'  => $this->model->getCompiledRows(static fn ($row) => is_numeric($row['group_id']), 'group'),
         ]);
     }
 
