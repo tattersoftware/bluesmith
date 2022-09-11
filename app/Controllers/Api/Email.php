@@ -7,7 +7,6 @@ use App\Entities\Job;
 use App\Models\InviteModel;
 use App\Models\JobModel;
 use CodeIgniter\Controller;
-use CodeIgniter\I18n\Time;
 use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 
 class Email extends Controller
