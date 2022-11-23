@@ -51,16 +51,16 @@
         },
         {
             "name": "chubv/php-stl",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChubV/php-stl.git",
-                "reference": "afe1c9ffb51bef2f82bcba2936c9b36d2eaf0fc8"
+                "reference": "9e7c4891cd13fd4f342db268eee197dc38615e3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChubV/php-stl/zipball/afe1c9ffb51bef2f82bcba2936c9b36d2eaf0fc8",
-                "reference": "afe1c9ffb51bef2f82bcba2936c9b36d2eaf0fc8",
+                "url": "https://api.github.com/repos/ChubV/php-stl/zipball/9e7c4891cd13fd4f342db268eee197dc38615e3d",
+                "reference": "9e7c4891cd13fd4f342db268eee197dc38615e3d",
                 "shasum": ""
             },
             "require": {
@@ -98,9 +98,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ChubV/php-stl/issues",
-                "source": "https://github.com/ChubV/php-stl/tree/v2.1.0"
+                "source": "https://github.com/ChubV/php-stl/tree/v2.1.1"
             },
-            "time": "2021-05-06T20:17:49+00:00"
+            "time": "2022-11-22T09:27:56+00:00"
         },
         {
             "name": "codeigniter4/framework",
